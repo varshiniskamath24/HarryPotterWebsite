@@ -1,0 +1,50 @@
+/*******************************
+stylesheet
+*******************************/
+* {
+	margin : 0px;
+	padding: 0px;
+}
+
+header, section, footer {
+	display: block;
+}
+
+body {
+	width: 100%;
+	background-color : #00000F;
+
+
+}
+
+/*******************************
+styling the heading
+*******************************/
+
+header h1 {
+	font-family :times,"times new roman",serif;
+	font-weight : bold;
+	font-size : 50px;									
+	text-align : center;									
+	color : #e6e6e6;
+	border-bottom : 1px solid rgba(230,230,230,0.6);
+	border-top : 1px solid rgba(230,230,230,0.5);
+	padding : 20px;
+	margin: 50px 60px 0px 60px;
+}
+
+/*******************************
+styling the footer
+*******************************/
+
+footer {
+	color: #e6e6e6;
+	font-size: 20px;
+	margin: 60px;
+	text-align: center;
+	padding: 30px;
+	border-bottom : 1px solid rgba(230,230,230,0.6);
+	border-top : 1px solid rgba(230,230,230,0.5);
+}
+
+
